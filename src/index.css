@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-image: url('https://images.unsplash.com/photo-1496450681664-3df85efbd29f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* mantengo la imagen fija mientras se desplaza la página */
+    background-position: center center; /* centro la imagen en la ventana del navegador */
+    min-height: 100vh; /* aseguro que el fondo ocupe al menos el 100% de la altura de la ventana */
+    max-width: 100%; /* limito el ancho de la imagen al ancho máximo de la ventana */
+    margin: 0; 
+    padding: 0;
+}
